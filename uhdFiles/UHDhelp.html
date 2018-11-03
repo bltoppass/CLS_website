@@ -24,14 +24,15 @@
 				url(bannerColor3.png) no-repeat white;
 				background-size: 100%;
 			}
-			
-			ul{
+			#topNav{
+				float: right;
+				background-color:rgba(192,192,192,0.75);
 				list-style-type: none;
 				margin: 0;
 				padding: 0;
 				overflow: hidden;
 			}
-			li a{
+			#topNav li a{
 				float: right;
 				background-color:rgba(192,192,192,0.75);
 				display: block;
@@ -42,9 +43,40 @@
 				padding: 10px 15px;
 				text-decoration: none;
 			}
-			li a:hover{
+			#topNav li a:hover{
 				background-color: gray;
 				color:white;
+			}
+			#botNav{
+				border-top: 3px solid black;
+				width:100%;
+				float: right;
+				background-color:rgba(0,0,0,0);
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+				overflow: hidden;
+			}
+			#botNav li a{
+				float: right;
+				background-color:rgba(0,0,0,0);
+				display: block;
+				font-size: 20px;
+				font-family: serif;
+				color: black;
+				text-align: center;
+				padding: 10px 15px;
+				text-decoration: none;
+			}
+			#botNav li a:hover{
+				background-color: lightgray;
+				color:white;
+			}
+			h1{
+				text-shadow: 2px 2px 2px #666666
+			}
+			h2{
+				text-shadow: 2px 1px 1px #b3b3b3
 			}
 			img {
 				max-width: 10%;
@@ -55,7 +87,7 @@
 				width: 100%;
 				float: left;
 				margin: 0 0 1em 0;
-				padding: 0;
+				padding: 2px;
 				list-style: none;
 				background-color: navy;
 				border-bottom: 1px solid darkblue; 
@@ -76,6 +108,11 @@
 				color: navy;
 				background-color: white; 
 			}
+			.centerText{
+				padding: 10px 0;
+				font-size: 20px;
+				border:solid 1px #000;
+			}
 			
 		</style>
 		
@@ -86,7 +123,7 @@
 		<div class="topimage">
 			<a href="https://www.uhd.edu/Pages/home.aspx" target="_blank"><img src="180pxUHD.png" style= "float: left" width="180px"></a>
 		</div>
-		<ul>
+		<ul id= "topNav">
 			<li><a href="https://www.uhd.edu/administration/university-relations/social-media/Pages/default.aspx" target="_blank">Social</a></li>
 			<li><a href="https://www.uhd.edu/advancement/Pages/give-to-uhd.aspx" target="_blank">Give</a></li>
 			<li><a href="https://www.uhd.edu/myuhd/Pages/default.aspx" target="_blank">myUHD</a></li>
@@ -95,7 +132,6 @@
 		</ul>
 
 		<ul id="nav">
-			<li><a href="https://www.udemy.com/" target="_blank">Udemy</a></li>
 			<li><a href="https://www.udacity.com/" target="_blank">Udacity</a></li>
 			<li><a href="https://www.pluralsight.com/codeschool" target="_blank">Code School</a></li>
 			<li><a href="https://coderdojo.com/" target="_blank">Coder Dojo</a></li>
@@ -103,10 +139,30 @@
 		</ul>
 		<!--<br><br>
 		<h1 style="color:black"> <strong class="uhdblue">UH</strong><strong class="uhdred">D</strong> Computer Science External Help Page </h1>-->	
-		</header>
-		<h1 style="color:black"> <!--<strong class="uhdblue">UH</strong><strong class="uhdred">D</strong>--> Computer Science External Help Page </h1>	
-	<form>
+		
+		<h1 style="color:black"> <!--<strong class="uhdblue">UH</strong><strong class="uhdred">D</strong>--> Computer Science External Help Page </h1>
+		</header>	
+		<br><br><br>
+		<h2>External Classrooms</h2>
+		<p class= "centerText">Since the internet was created by by networking computers and for the exchange of information, it's seems only natural that some of the 
+		information would be about the computers themselves. One of the many aspects of computer science is to create programs. There are many external sources where
+		 you can find plenty of content, a lot of it is even <a href= "https://www.entrepreneur.com/article/250323" target= "_blank"><strong>FREE</strong></a>! 
+		 If you look above at the blue navigation bar you will find the most influential and most trusted sites to deepen your knowledge of all things
+		 coding. All of these sites have programs which you can pay for as well as free content.</p>
+		<form>
 	
-	</form>
+		</form>
+		<footer>
+		<span style= "float: left; text-shadow: 1px 1px 1px #b3b3b3">
+		<h6>Made by: Christopher Felicitas, Luis Moreno, Carlos Parlour, Brandon Toppass</h6>
+		</span>
+		<ul id= "botNav">
+			<li><a href="https://www.uhd.edu/administration/university-relations/social-media/Pages/default.aspx" target="_blank">Social</a></li>
+			<li><a href="https://www.uhd.edu/advancement/Pages/give-to-uhd.aspx" target="_blank">Give</a></li>
+			<li><a href="https://www.uhd.edu/myuhd/Pages/default.aspx" target="_blank">myUHD</a></li>
+			<li><a href="https://www.uhd.edu/admissions/apply/Pages/admissions-application.aspx" target="_blank">Apply</a></li>
+			<li><a href="https://www.uhd.edu/admissions/Pages/admissions-request.aspx" target="_blank">Request Info</a></li>
+		</ul>
+		</footer>
 	</body>
 </html>
