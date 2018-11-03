@@ -21,7 +21,7 @@
 			}
 			#header{ 
 				background:
-				url(bannerColor2.png) no-repeat beige;
+				url(bannerColor3.png) no-repeat white;
 				background-size: 100%;
 			}
 			
@@ -46,6 +46,36 @@
 				background-color: gray;
 				color:white;
 			}
+			img {
+				max-width: 10%;
+				height: auto;
+				width: auto\9; 
+			}
+			#nav {
+				width: 100%;
+				float: left;
+				margin: 0 0 1em 0;
+				padding: 0;
+				list-style: none;
+				background-color: navy;
+				border-bottom: 1px solid darkblue; 
+				border-top: 1px solid darkblue; 
+			}
+			#nav li {
+				float: left; 
+			}
+			#nav li a {
+				display: block;
+				padding: 8px 15px;
+				text-decoration: none;
+				font-weight: bold;
+				color: white;
+				border-right: 1px solid darkblue; 
+			}
+			#nav li a:hover {
+				color: navy;
+				background-color: white; 
+			}
 			
 		</style>
 		
@@ -53,7 +83,9 @@
 	
 	<body id="header">
 		<header>
-		<a href="https://www.uhd.edu/Pages/home.aspx"><img src="180pxUHD.png" style= "float: left"></a>
+		<div class="topimage">
+			<a href="https://www.uhd.edu/Pages/home.aspx" target="_blank"><img src="180pxUHD.png" style= "float: left" width="180px"></a>
+		</div>
 		<ul>
 			<li><a href="https://www.uhd.edu/administration/university-relations/social-media/Pages/default.aspx" target="_blank">Social</a></li>
 			<li><a href="https://www.uhd.edu/advancement/Pages/give-to-uhd.aspx" target="_blank">Give</a></li>
@@ -61,9 +93,18 @@
 			<li><a href="https://www.uhd.edu/admissions/apply/Pages/admissions-application.aspx" target="_blank">Apply</a></li>
 			<li><a href="https://www.uhd.edu/admissions/Pages/admissions-request.aspx" target="_blank">Request Info</a></li>
 		</ul>
-		<br><br><br><br>
-			<h1 style="color:white"> <strong class="uhdblue">UH</strong><strong class="uhdred">D</strong> Computer Science External Help Page </h1>
+
+		<ul id="nav">
+			<li><a href="https://www.udemy.com/" target="_blank">Udemy</a></li>
+			<li><a href="https://www.udacity.com/" target="_blank">Udacity</a></li>
+			<li><a href="https://www.pluralsight.com/codeschool" target="_blank">Code School</a></li>
+			<li><a href="https://coderdojo.com/" target="_blank">Coder Dojo</a></li>
+			<li><a href="https://teamtreehouse.com/" target="_blank">Treehouse</a></li>
+		</ul>
+		<!--<br><br>
+		<h1 style="color:black"> <strong class="uhdblue">UH</strong><strong class="uhdred">D</strong> Computer Science External Help Page </h1>-->	
 		</header>
+		<h1 style="color:black"> <!--<strong class="uhdblue">UH</strong><strong class="uhdred">D</strong>--> Computer Science External Help Page </h1>	
 	<form>
 	
 	</form>
