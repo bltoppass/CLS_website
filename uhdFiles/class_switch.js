@@ -32,6 +32,8 @@ var cs3300 = '<html lang = "en"><head><meta charset = "utf-8" name="viewport" co
 	  </p>\
 	  <iframe width="720" height="480" src="https://www.youtube.com/embed/watch?v=Hl-zzrqQoSE&list=PLFE2CE09D83EE3E28">\
 	  </iframe>\
+	  <iframe width="720" height="480" src="https://www.youtube.com/embed/watch?v=UI6lqHOVHic&list=PLnyCMitOFXWZ9oaXyPI_VsGyR-xadfLXS">\
+	  </iframe>\
 	  <form></form>\
 	<footer><ul id= "botNav">\
 		<li><a href="https://www.uhd.edu/administration/university-relations/social-media/Pages/default.aspx" target="_blank">Social</a></li>\
