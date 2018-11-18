@@ -30,6 +30,22 @@ var cs3300 = '<html lang = "en"><head><meta charset = "utf-8" name="viewport" co
 							Prerequisite(s): Grade of C or better in CS 2410.<br>\
 							Provides practical guidance on the construction of object-oriented systems. The Unified Modeling Language (UML) is used as a tool for analysis and design and the JAVA language is used for implementation. Key concepts of object-oriented programming methodology are discussed.\
 	  </p>\
+	  <form>\
+	  <select name="cClass" onchange="replace(this.value)">\
+			<option value="" >Select A Class</option>\
+			<option value="cs1408" >1408 Intro to CS with Visual Basic</option>\
+			<option value="cs1410" >1410 Intro to CS with C++</option>\
+			<option value="cs2301" >2301 Intro to Computer Organization</option>\
+			<option value="cs2302" >2302 Digital Logic</option>\
+			<option value="cs2410" >2410 Data Structures and Algorithms</option>\
+			<option value="cs3300" >3300 Object-Oriented Programming</option>\
+			<option value="cs3304" >3304 Data and Info Structures</option>\
+			<option value="cs3306" >3306 Intro to Theory of Computation</option>\
+			<option value="cs3321" >3321 Software Engineering</option>\
+			<option value="cs3324" >3324 Computer Network Architecture</option>\
+			<option value="cs4300" >4300 Web Programming</option>\
+		</select>\
+	  </form>\
 	  <iframe width="720" height="480" src="https://www.youtube.com/embed/watch?v=Hl-zzrqQoSE&list=PLFE2CE09D83EE3E28">\
 	  </iframe>\
 	  <iframe width="720" height="480" src="https://www.youtube.com/embed/watch?v=UI6lqHOVHic&list=PLnyCMitOFXWZ9oaXyPI_VsGyR-xadfLXS">\
@@ -48,11 +64,21 @@ var cs3300 = '<html lang = "en"><head><meta charset = "utf-8" name="viewport" co
     </footer>\
   </body></html>';
   var HW = 'Hello World';
-function ReplacePage(i){
-	document.open();
-	document.write(i);
-	document.close();
-}
-function replace(){
-	ReplacePage(cs3300);
+//function ReplacePage(i){
+	//document.open();
+	//document.write(i);
+	//document.close();
+//}
+function replace(someValue){
+	if (someValue==""){
+		return;
+	}else if(someValue=="cs3300"){
+		document.open();
+		document.write(cs3300);
+		document.close();
+	}else if(someValue=="HW"){
+		document.open();
+		document.write(HW);
+		document.close();
+	}
 }
