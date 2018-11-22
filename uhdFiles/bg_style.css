@@ -1,21 +1,18 @@
-#webDev {}
-#cplus {}
-#java {}
-#python {}
-	.uhdblue{
+
+	.uhdblue{/*make font blue*/
 		font-family: Georgia, serif;
 		color:blue;
 		}
-	.uhdred {
+	.uhdred {/*make font red*/
 		font-family: Georgia, serif;
 		color:red;
 		}
-	#header { 
+	#header { /*this is to place the banner, with white background*/
 		background:
 		url(bannerColor3.png) no-repeat white;
 		background-size: 100%;
 		}
-	#topNav {
+	#topNav {/*the links to other uhd pages up top*/
 		float: right;
 		width:32.5%;
 		background-color:rgba(192,192,192,0.4);
@@ -24,7 +21,7 @@
 		padding: 0;
 		overflow: hidden;
 		}
-	#topNav li a{
+	#topNav li a{/*each list item for uhd links up top*/
 		float: right;
 		display: block;
 		font-size: 20px;
@@ -35,11 +32,11 @@
 		padding: 10px 15px;
 		text-decoration: none;
 		}
-	#topNav li a:hover{
+	#topNav li a:hover{/*what happens when you hover on list items*/
 		color:white;
 		text-decoration: underline;
 		}
-	#botNav{
+	#botNav{/*the links to other uhd pages on bottom*/
 		border-top: 3px solid black;
 		width:100%;
 		float: right;
@@ -49,7 +46,7 @@
 		padding: 0;
 		overflow: hidden;
 		}
-	#botNav li a{
+	#botNav li a{/*list items for bottom*/
 		float: right;
 		background-color:rgba(0,0,0,0);
 		display: block;
@@ -60,26 +57,26 @@
 		padding: 5px 15px;
 		text-decoration: none;
 		}
-	#botNav li a:hover{
+	#botNav li a:hover{/*what happens when you hover on bottom*/
 		background-color: lightgray;
 		color:white;
 		}
-	h1{
+	h1{/*text shadow for header1*/
 		text-shadow: 2px 2px 2px #666666
 		}
-	h2{
+	h2{/*text shadow for header2*/
 		text-shadow: 2px 1px 1px #b3b3b3
 		}
-	h3{
+	h3{/*text shadow, font size for header3*/
 		font-size: 30px;
 		text-shadow: 2px 1px 1px #b3b3b3;
 	}
-	img {
+	img {/*specs of all images used with img tag*/
 		max-width: 10%;
 		height: auto;
 		width: auto\9; 
 		}
-	#nav {
+	#nav {/*blue nav for links to free coding sites*/
 		width: 100%;
 		float: left;
 		margin: 0 0 1em 0;
@@ -89,10 +86,10 @@
 		border-bottom: 2px solid darkred; 
 		border-top: 2px solid darkred; 
 		}
-	#nav li {
+	#nav li {/*left oriented*/
 		float: left; 
 		}
-	#nav li a {
+	#nav li a {/*each list item specs*/
 		display: block;
 		padding: 8px 15px;
 		text-decoration: none;
@@ -100,11 +97,11 @@
 		color: white;
 		border-right: 2px solid darkred; 
 		}
-	#nav li a:hover {
+	#nav li a:hover {/*hover specs*/
 		color: navy;
 		background-color: white; 
 		}
-	.centerText{
+	.centerText{/*centering text and making a border*/
 		padding: 10px 0;
 		font-size: 20px;
 		border:solid 1px #000;
