@@ -108,170 +108,304 @@
 		}
 
 		/*code below are for the dark red buttons on main webpage*/
-		#round1
-		{
+#round1
+{
 
-    		border: 03px solid darkred;
-   		 padding: 5px 20px;
-    		background: darkred;
-    		width: 400px;
-    		text-align: left;
-    		border-radius: 50px;
-    		color: white;
-    		font-size: 20px;
-    		font-weight: bolder;
-    		position: absolute;
-    		top: 350px;
-    		left: 700px;
-    		text-decoration: underline;
-		}
-		#round2
-		{
-		 border: 03px solid darkred;
- 	         padding: 5px 20px;
-    		background: darkred;
-    		width: 400px;
-    		text-align: left;
-    		border-radius: 30px;
-    		color: white;
-    		font-size: 20px;
-    		font-weight: bolder;
-    		position: absolute;
-    		top: 400px;
-    		left: 700px;
-		}
-		#round3
-		{
-		border: 03px solid darkred;
-		padding: 5px 20px;
-    		background: darkred;
-    		width: 400px;
-    		text-align: left;
-    		border-radius: 50px;
-    		color: white;
-    		font-size: 20px;
-    		font-weight: bolder;
-    		position: absolute;
-    		top: 450px;
-    		left: 700px;/* increasing border-radius */
-		}
-		#round4
-		{
-    		border: 03px solid darkred;
-    		padding: 5px 20px;
-    		background: darkred;
-    		width: 400px;
-    		text-align: left;
-    		border-radius: 50px;
-    		color: white;
-    		font-size: 20px;
-    		font-weight: bolder;
-    		position: absolute;
-    		top: 500px;
-    		left: 700px;/* increasing border-radius */
-    		}
-		#round5
-		{
-    		border: 03px solid darkred;
-    		padding: 5px 20px;
-    		background: darkred;
-    		width: 400px;
-    		text-align: left;
-    		border-radius: 50px;
-    		color: white;
-    		font-size: 20px;
-    		font-weight: bolder;
-    		position: absolute;
-    		top: 550px;
-    		left: 700px;/* increasing border-radius */
-		}
-		#round6
-		{
-    		border: 03px solid darkred;
-    		padding: 5px 20px;
-    		background: darkred;
-    		width: 400px;
-    		text-align: left;
-    		border-radius: 30px;
-    		color: white;
-    		font-size: 20px;
-    		font-weight: bolder;
-    		position: absolute;
-    		top: 600px;
-    		left: 700px;/* increasing border-radius */
-		}
-		#round7
-		{
-    		border: 03px solid darkred;
-    		padding: 5px 20px;
-    		background: darkred;
-    		width: 400px;
-    		text-align: left;
-    		border-radius: 50px;
-    		color: white;
-    		font-size: 20px;
-    		font-weight: bolder;
-    		position: absolute;
-    		top: 650px;
-    		left: 700px;/* increasing border-radius */
-		}
-		#round8
-		{
-    		border: 03px solid darkred;
-    		padding: 5px 20px;
-    		background: darkred;
-    		width: 400px;
-    		text-align: left;
-    		border-radius: 50px;
-    		color: white;
-    		font-size: 20px;
-    		font-weight: bolder;
-    		position: absolute;
-    		top: 700px;
-    		left: 700px;/* increasing border-radius */
-		}
-		#round9
-		{
-    		border: 03px solid darkred;
-    		padding: 5px 20px;
-   		 background: darkred;
-   		 width: 400px;
-    		text-align: left;
-    		border-radius: 50px;
-    		color: white;
-    		font-size: 20px;
-    		font-weight: bolder;
-    		position: absolute;
-    		top: 750px;
-    		left: 700px;/* increasing border-radius */
-		}
-		#round10
-		{
-   		 border: 03px solid darkred;
-   		 padding: 5px 20px;
-   		 background: darkred;
-   		 width: 400px;
-    		text-align: left;
-    		border-radius: 30px;
-    		color: white;
-    		font-size: 20px;
-    		font-weight: bolder;
-    		position: absolute;
-    		top: 800px;
-    		left: 700px;/* increasing border-radius */
-		}
-		#round11
-		{
-    		border: 03px solid darkred;
-    		padding: 5px 20px;
-    		background: darkred;
-    		width: 400px;
-    		text-align: left;
-    		border-radius: 50px;
-    		color: white;
-    		font-size: 20px;
-    		font-weight: bolder;
-    		position: absolute;
-    		top: 850px;
-    		left: 700px;/* increasing border-radius */
-		}
+    border: 03px solid darkred;
+    padding: 5px 20px;
+    background: darkred;
+    width: 400px;
+    border-radius: 50px;
+    position: absolute;
+    top: 350px;
+    left: 700px;/* increasing border-radius */
+}
+#round1 a{
+    
+    font-size: 20px;
+    font-family: serif;
+    color: white;
+    text-shadow: 2px 1px 1px #666666
+    text-align: left;
+    font-weight: bolder;
+    text-decoration: none;
+}
+#round1  a:hover{
+    color:white;
+    text-decoration: underline;
+}
+
+
+#round2
+{
+    border: 03px solid darkred;
+    padding: 5px 20px;
+    background: darkred;
+    width: 400px;
+    border-radius: 50px;
+    position: absolute;
+    top: 400px;
+    left: 700px;/* increasing border-radius */
+}
+
+#round2 a{
+    
+    font-size: 20px;
+    font-family: serif;
+    color: white;
+    text-shadow: 2px 1px 1px #666666
+    text-align: left;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+#round2  a:hover{
+    color:white;
+    text-decoration: underline;
+}
+
+#round3
+{
+    border: 03px solid darkred;
+    padding: 5px 20px;
+    background: darkred;
+    width: 400px;
+    border-radius: 50px;
+    position: absolute;
+    top: 450px;
+    left: 700px;/* increasing border-radius */
+}
+
+#round3 a{
+    
+    font-size: 20px;
+    font-family: serif;
+    color: white;
+    text-shadow: 2px 1px 1px #666666
+    text-align: left;
+    font-weight: bolder;
+    text-decoration: none;
+}
+#round3  a:hover{
+    color:white;
+    text-decoration: underline;
+}
+
+#round4
+{
+    border: 03px solid darkred;
+    padding: 5px 20px;
+    background: darkred;
+    width: 400px;
+    border-radius: 50px;
+    position: absolute;
+    top: 500px;
+    left: 700px;/* increasing border-radius */
+}
+
+#round4 a{
+    
+    font-size: 20px;
+    font-family: serif;
+    color: white;
+    text-shadow: 2px 1px 1px #666666
+    text-align: left;
+    font-weight: bolder;
+    text-decoration: none;
+}
+#round4  a:hover{
+    color:white;
+    text-decoration: underline;
+}
+
+#round5
+{
+    border: 03px solid darkred;
+    padding: 5px 20px;
+    background: darkred;
+    width: 400px;
+    border-radius: 50px;
+    position: absolute;
+    top: 550px;
+    left: 700px;/* increasing border-radius */
+}
+
+#round5 a{
+    
+    font-size: 20px;
+    font-family: serif;
+    color: white;
+    text-shadow: 2px 1px 1px #666666
+    text-align: left;
+    font-weight: bolder;
+    text-decoration: none;
+}
+#round5  a:hover{
+    color:white;
+    text-decoration: underline;
+}
+
+#round6
+{
+    border: 03px solid darkred;
+    padding: 5px 20px;
+    background: darkred;
+    width: 400px;
+    border-radius: 30px;
+    position: absolute;
+    top: 600px;
+    left: 700px;/* increasing border-radius */
+}
+
+#round6 a{
+    
+    font-size: 20px;
+    font-family: serif;
+    color: white;
+    text-shadow: 2px 1px 1px #666666
+    text-align: left;
+    font-weight: bolder;
+    text-decoration: none;
+}
+#round6  a:hover{
+    color:white;
+    text-decoration: underline;
+}
+
+#round7
+{
+    border: 03px solid darkred;
+    padding: 5px 20px;
+    background: darkred;
+    width: 400px;
+    border-radius: 50px;
+    position: absolute;
+    top: 650px;
+    left: 700px;/* increasing border-radius */
+}
+
+#round7 a{
+    
+    font-size: 20px;
+    font-family: serif;
+    color: white;
+    text-shadow: 2px 1px 1px #666666
+    text-align: left;
+    font-weight: bolder;
+    text-decoration: none;
+}
+#round7  a:hover{
+    color:white;
+    text-decoration: underline;
+}
+
+#round8
+{
+    border: 03px solid darkred;
+    padding: 5px 20px;
+    background: darkred;
+    width: 400px;
+    border-radius: 50px;
+    position: absolute;
+    top: 700px;
+    left: 700px;/* increasing border-radius */
+}
+
+#round8 a{
+    
+    font-size: 20px;
+    font-family: serif;
+    color: white;
+    text-shadow: 2px 1px 1px #666666
+    text-align: left;
+    font-weight: bolder;
+    text-decoration: none;
+}
+#round8  a:hover{
+    color:white;
+    text-decoration: underline;
+}
+
+#round9
+{
+    border: 03px solid darkred;
+    padding: 5px 20px;
+    background: darkred;
+    width: 400px;
+    border-radius: 50px;
+    position: absolute;
+    top: 750px;
+    left: 700px;/* increasing border-radius */
+}
+
+#round9 a{
+    
+    font-size: 20px;
+    font-family: serif;
+    color: white;
+    text-shadow: 2px 1px 1px #666666
+    text-align: left;
+    font-weight: bolder;
+    text-decoration: none;
+}
+#round9  a:hover{
+    color:white;
+    text-decoration: underline;
+}
+
+#round10
+{
+    border: 03px solid darkred;
+    padding: 5px 20px;
+    background: darkred;
+    width: 400px;
+    border-radius: 30px;
+    position: absolute;
+    top: 800px;
+    left: 700px;/* increasing border-radius */
+}
+
+#round10 a{
+    
+    font-size: 20px;
+    font-family: serif;
+    color: white;
+    text-shadow: 2px 1px 1px #666666
+    text-align: left;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+#round10  a:hover{
+    color:white;
+    text-decoration: underline;
+}
+
+#round11
+{
+    border: 03px solid darkred;
+    padding: 5px 20px;
+    background: darkred;
+    width: 400px;
+    border-radius: 50px;
+    position: absolute;
+    top: 850px;
+    left: 700px;/* increasing border-radius */
+}
+
+#round11 a{
+    
+    font-size: 20px;
+    font-family: serif;
+    color: white;
+    text-shadow: 2px 1px 1px #666666
+    text-align: left;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+#round11  a:hover{
+    color:white;
+    text-decoration: underline;
+}
+
