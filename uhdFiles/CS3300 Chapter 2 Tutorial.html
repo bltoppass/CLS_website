@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<!-- Computer Science help page website -->
+
+<html lang = "en"><head><meta charset = "utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+	  <title>UHD CS External Help</title>
+	<link rel="stylesheet" type="text/css" href="bg_style.css">
+	<script src="class_switch.js"></script>
+  </head>
+  <body id="header">
+	<header>
+	  <div class="topimage"><!--The UHD logo to click for homepage-->
+		<a href="https://www.uhd.edu/Pages/home.aspx" target="_blank"><img src="180pxUHD.png" style= "float: left" width="180px"></a>
+	  </div>
+	  <ul id= "topNav">
+		<li><a href="https://www.uhd.edu/administration/university-relations/social-media/Pages/default.aspx" target="_blank">Social</a></li>
+		<li><a href="https://www.uhd.edu/advancement/Pages/give-to-uhd.aspx" target="_blank">Give</a></li>
+		<li><a href="https://www.uhd.edu/myuhd/Pages/default.aspx" target="_blank">myUHD</a></li>
+		<li><a href="https://www.uhd.edu/admissions/apply/Pages/admissions-application.aspx" target="_blank">Apply</a></li>
+		<li><a href="https://www.uhd.edu/admissions/Pages/admissions-request.aspx" target="_blank">Request Info</a></li>
+	  </ul>
+	  <ul id="nav">
+		<li><a href="https://www.udacity.com/" target="_blank">Udacity</a></li>
+		<li><a href="https://www.pluralsight.com/codeschool" target="_blank">Code School</a></li>
+		<li><a href="https://coderdojo.com/" target="_blank">Coder Dojo</a></li>
+		<li><a href="https://teamtreehouse.com/" target="_blank">Treehouse</a></li>
+	  </ul>	
+	  <h1 style="color:black"> <!--<strong class="uhdblue">UH</strong><strong class="uhdred">D</strong>--> Computer Science External Help Page </h1>
+	</header>	
+	  <br><br><br>
+	  <form>
+	  <select name="CS_Classes" onchange="replace(this.value)">
+			<option value="" >Select A Class</option>
+			<option value="cs1408" >1408 Intro to CS with Visual Basic</option>
+			<option value="cs1410" >1410 Intro to CS with C++</option>
+			<option value="cs2301" >2301 Intro to Computer Organization</option>
+			<option value="cs2302" >2302 Digital Logic</option>
+			<option value="cs2410" >2410 Data Structures and Algorithms</option>
+			<option value="cs3300" >3300 Object-Oriented Programming</option>
+			<option value="cs3304" >3304 Data and Info Structures</option>
+			<option value="cs3306" >3306 Intro to Theory of Computation</option>
+			<option value="cs3321" >3321 Software Engineering</option>
+			<option value="cs3324" >3324 Computer Network Architecture</option>
+			<option value="cs4300" >4300 Web Programming</option>
+		</select>
+	  </form>
+	  <h1 align = "center">Tutorials for CS 3300 Object-Oriented Programming (based off the in-class textbook)</h1>
+	<br>
+	
+	<!--Allow user to choose a chapter to view-->
+	<select name = "cs_chapters" id = "cs_chapters" onchange="changeChapters(this)">
+		<option value="">Select Chapter</option>
+		<option value="CS3300 Chapter 1 Tutorial.html">Chapter 1</option>
+		<option value="CS3300 Chapter 2 Tutorial.html">Chapter 2</option>
+		<option value="CS3300 Chapter 3 Tutorial.html">Chapter 3</option>
+	</select>
+	
+	<!--Display CS3300 chapter 2 tutorials-->
+<h2> II. Chapter 2 File I/O</h2>
+	<h3 class = "indentLv1">A. Ch2.1 Screen Output</h3>
+		<iframe class = "centerVid" width="720" height="480" src="https://www.youtube.com/embed/cCq5LqFXVyU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br><br>
+		<iframe class = "centerVid" width="720" height="480" src="https://www.youtube.com/embed/sbo-D3P6GNg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br><br>
+	<h3 class = "indentLv1">B. Ch2.2 Console Input Using The Scanner Class</h3>
+		<iframe class = "centerVid" width="720" height="480" src="https://www.youtube.com/embed/5DdacOkrTgo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br><br>
+	<h3 class = "indentLv1">C. Ch2.3 Introduction to File Input</h3>	
+		<iframe class = "centerVid" width="720" height="480" src="https://www.youtube.com/embed/G0DfmD0KKyc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br><br><iframe class = "centerVid" width="720" height="480" src="https://www.youtube.com/embed/Bws9aQuAcdg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br><br>
+		<iframe class = "centerVid" width="720" height="480" src="https://www.youtube.com/embed/3RNYUKxAgmw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+	
+	<footer><ul id= "botNav">
+		<li><a href="https://www.uhd.edu/administration/university-relations/social-media/Pages/default.aspx" target="_blank">Social</a></li>
+		<li><a href="https://www.uhd.edu/advancement/Pages/give-to-uhd.aspx" target="_blank">Give</a></li>
+		<li><a href="https://www.uhd.edu/myuhd/Pages/default.aspx" target="_blank">myUHD</a></li>
+		<li><a href="https://www.uhd.edu/admissions/apply/Pages/admissions-application.aspx" target="_blank">Apply</a></li>
+	    <li><a href="https://www.uhd.edu/admissions/Pages/admissions-request.aspx" target="_blank">Request Info</a></li>
+	  </ul>
+	  <span style= "float: left; text-shadow: 1px 1px 1px #b3b3b3">
+		
+		<!--
+		1.  Add personal webpages of group members here
+		2.  In each personal web page, insert code <a href = "../UHDhelp.html">Back to UHD Computer Science External Help Page</a> to return to main page		
+		-->
+		
+		<h4>
+		Made by: 
+		<a href = "Christopher Felicitas' Personal Webpage/Personal Webpage.html">Christopher Felicitas</a>, 
+		<a href = "(folder name)/(personal webpage name).html">Luis Moreno</a>, 
+		<a href = "(folder name)/(personal webpage name).html">Carlos Parlour</a>,
+		<a href = "(folder name)/(personal webpage name).html">Brandon Toppass</a>
+		</h4>
+		
+	  </span>
+    </footer>
+  </body></html>

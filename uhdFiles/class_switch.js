@@ -25,13 +25,8 @@ var cs3300 = '<html lang = "en"><head><meta charset = "utf-8" name="viewport" co
 	  <h1 style="color:black"> <!--<strong class="uhdblue">UH</strong><strong class="uhdred">D</strong>--> Computer Science External Help Page </h1>\
 	</header>	\
 	  <br><br><br>\
-	  <h2>CS 3300</h2>\
-	  <p class= "centerText">Credits: 3 Class: 3 Lab: 0<br>\
-							Prerequisite(s): Grade of C or better in CS 2410.<br>\
-							Provides practical guidance on the construction of object-oriented systems. The Unified Modeling Language (UML) is used as a tool for analysis and design and the JAVA language is used for implementation. Key concepts of object-oriented programming methodology are discussed.\
-	  </p>\
 	  <form>\
-	  <select name="cClass" onchange="replace(this.value)">\
+	  <select name="CS_Classes" onchange="replace(this.value)">\
 			<option value="" >Select A Class</option>\
 			<option value="cs1408" >1408 Intro to CS with Visual Basic</option>\
 			<option value="cs1410" >1410 Intro to CS with C++</option>\
@@ -46,10 +41,33 @@ var cs3300 = '<html lang = "en"><head><meta charset = "utf-8" name="viewport" co
 			<option value="cs4300" >4300 Web Programming</option>\
 		</select>\
 	  </form>\
-	  <iframe width="720" height="480" src="https://www.youtube.com/embed/watch?v=Hl-zzrqQoSE&list=PLFE2CE09D83EE3E28">\
-	  </iframe>\
-	  <iframe width="720" height="480" src="https://www.youtube.com/embed/watch?v=UI6lqHOVHic&list=PLnyCMitOFXWZ9oaXyPI_VsGyR-xadfLXS">\
-	  </iframe>\
+	  <h1 align = "center">Tutorials for CS 3300 Object-Oriented Programming (based off the in-class textbook)</h1>\
+	<br>\
+	<select name = "cs_chapters" id = "cs_chapters" onchange="changeChapters(this)">\
+		<option value="">Select Chapter</option>\
+		<option value="CS3300 Chapter 1 Tutorial.html">Chapter 1</option>\
+		<option value="CS3300 Chapter 2 Tutorial.html">Chapter 2</option>\
+		<option value="CS3300 Chapter 3 Tutorial.html">Chapter 3</option>\
+	</select>\
+<h2> I. Chapter 1 Getting Started</h2>\
+	<h3 class = "indentLv1">A. Ch1.1 Introduction to Java</h3>\
+		<p class = "indentLv2">1) Running your first program</p>\
+			<iframe class = "centerVid" width="720" height="480" src="https://www.youtube.com/embed/Hl-zzrqQoSE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>\
+			<br><br><br>\
+			<iframe class = "centerVid" width="720" height="480" src="https://www.youtube.com/embed/CE8UIbb_4iM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>\
+			<br><br><br>\
+			<iframe class = "centerVid" width="720" height="480" src="https://www.youtube.com/embed/SHIT5VkNrCg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>\
+			<br><br><br><br><br><br>\
+		<p class = "indentLv2">2) Byte-Code and the Java Virtual Machine</p>\
+			<iframe class = "centerVid" width="720" height="480" src="https://www.youtube.com/embed/G1ubVOl9IBw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>\
+			<br><br><br><br><br><br>\
+	<h3 class = "indentLv1">B. Ch1.2 Expressions and Assignment Statements</h3>\
+			<iframe class = "centerVid" width="720" height="480" src="https://www.youtube.com/embed/gtQJXzi3Yns" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>\
+	<h3 class = "indentLv1">C. Ch1.3 The Class String</h3>\
+			<iframe class = "centerVid" width="720" height="480" src="https://www.youtube.com/embed/yXtoSrGDkuc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>\
+	<h3 class = "indentLv1">D. Ch1.4 Program Style</h3>\
+			<iframe class = "centerVid" width="720" height="480" src="https://www.youtube.com/embed/mw7k70c4OHw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>\
+		<br>\
 	  <form></form>\
 	<footer><ul id= "botNav">\
 		<li><a href="https://www.uhd.edu/administration/university-relations/social-media/Pages/default.aspx" target="_blank">Social</a></li>\
@@ -59,26 +77,25 @@ var cs3300 = '<html lang = "en"><head><meta charset = "utf-8" name="viewport" co
 	    <li><a href="https://www.uhd.edu/admissions/Pages/admissions-request.aspx" target="_blank">Request Info</a></li>\
 	  </ul>\
 	  <span style= "float: left; text-shadow: 1px 1px 1px #b3b3b3">\
-		<h6>Made by: Christopher Felicitas, Luis Moreno, Carlos Parlour, Brandon Toppass</h6>\
+		<h4>\
+		Made by:\
+		<a href = "Christopher Felicitas\' Personal Webpage/Personal Webpage.html">Christopher Felicitas</a>,\
+		</h4>\
 	  </span>\
     </footer>\
   </body></html>';
-  var HW = 'Hello World';
-//function ReplacePage(i){
-	//document.open();
-	//document.write(i);
-	//document.close();
-//}
-function replace(someValue){
-	if (someValue==""){
+
+function replace(csClass){
+	if (csClass==""){
 		return;
-	}else if(someValue=="cs3300"){
+	}else if(csClass=="cs3300"){
 		document.open();
 		document.write(cs3300);
 		document.close();
-	}else if(someValue=="HW"){
-		document.open();
-		document.write(HW);
-		document.close();
 	}
+}
+
+//Open selected CS3300 chapter on the same page
+function changeChapters(cs_chapter){
+	window.open(cs_chapter.value, "_self");
 }

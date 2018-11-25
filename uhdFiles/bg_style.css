@@ -109,3 +109,24 @@
 		font-size: 20px;
 		border:solid 1px #000;
 		}
+	#CS_Classes{	/*Adjust drop down box width and height to a large and readable size*/
+		width: 750px; 
+		height: 100px;
+		font-size: 30pt;
+	}
+	select {	/*Center drop down box on page*/
+		display: block;
+		margin: 0 auto;
+	}
+	.indentLv1{		/*Indent a line by 1 tab*/
+		margin-left: 1em;
+		font-size: 15pt;
+	}
+	.indentLv2{		/*Indent a line by 2 tabs*/
+		margin-left: 2em;
+		font-size: 15pt;
+	}
+	.centerVid{		/*Center a video on page*/
+		display: block;
+		margin: 0 auto;
+	}
