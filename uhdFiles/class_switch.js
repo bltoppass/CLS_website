@@ -80,6 +80,9 @@ var cs3300 = '<html lang = "en"><head><meta charset = "utf-8" name="viewport" co
 		<h4>\
 		Made by:\
 		<a href = "Christopher Felicitas\' Personal Webpage/Personal Webpage.html">Christopher Felicitas</a>,\
+		<a href = "(folder name)/(personal webpage name).html">Luis Moreno</a>, \
+		<a href = "(folder name)/(personal webpage name).html">Carlos Parlour</a>, \
+		<a href = "BrandonWebPageDocs/index.html">Brandon Toppass</a>\
 		</h4>\
 	  </span>\
     </footer>\
@@ -152,8 +155,14 @@ Mathematics (COSC 1436)\
 <li><a href="https://www.uhd.edu/admissions/Pages/admissions-request.aspx" target="_blank">Request Info</a></li>\
 </ul>\
 <span style= "float: left; text-shadow: 1px 1px 1px #b3b3b3">\
-<h6>Made by: Christopher Felicitas, Luis Moreno, Carlos Parlour, Brandon Toppass</h6>\
-</span>\
+		<h4>\
+		Made by:\
+		<a href = "Christopher Felicitas\' Personal Webpage/Personal Webpage.html">Christopher Felicitas</a>,\
+		<a href = "(folder name)/(personal webpage name).html">Luis Moreno</a>, \
+		<a href = "(folder name)/(personal webpage name).html">Carlos Parlour</a>, \
+		<a href = "BrandonWebPageDocs/index.html">Brandon Toppass</a>\
+		</h4>\
+	  </span>\
 </footer>\
 </body></html>'
 //---------------------------------------------------------------------------------------------------------------------------------------------------------//
@@ -220,8 +229,14 @@ and storage, and alternative architecture. (COSC 2425)\
 <li><a href="https://www.uhd.edu/admissions/Pages/admissions-request.aspx" target="_blank">Request Info</a></li>\
 </ul>\
 <span style= "float: left; text-shadow: 1px 1px 1px #b3b3b3">\
-<h6>Made by: Christopher Felicitas, Luis Moreno, Carlos Parlour, Brandon Toppass</h6>\
-</span>\
+		<h4>\
+		Made by:\
+		<a href = "Christopher Felicitas\' Personal Webpage/Personal Webpage.html">Christopher Felicitas</a>,\
+		<a href = "(folder name)/(personal webpage name).html">Luis Moreno</a>, \
+		<a href = "(folder name)/(personal webpage name).html">Carlos Parlour</a>, \
+		<a href = "BrandonWebPageDocs/index.html">Brandon Toppass</a>\
+		</h4>\
+	  </span>\
 </footer>\
 </body></html>';
 //---------------------------------------------------------------------------------------------------------------------------------------------------------//
@@ -290,8 +305,14 @@ design, simulation, simplification, and testing of digital circuits.\
 <li><a href="https://www.uhd.edu/admissions/Pages/admissions-request.aspx" target="_blank">Request Info</a></li>\
 </ul>\
 <span style= "float: left; text-shadow: 1px 1px 1px #b3b3b3">\
-<h6>Made by: Christopher Felicitas, Luis Moreno, Carlos Parlour, Brandon Toppass</h6>\
-</span>\
+		<h4>\
+		Made by:\
+		<a href = "Christopher Felicitas\' Personal Webpage/Personal Webpage.html">Christopher Felicitas</a>,\
+		<a href = "(folder name)/(personal webpage name).html">Luis Moreno</a>, \
+		<a href = "(folder name)/(personal webpage name).html">Carlos Parlour</a>, \
+		<a href = "BrandonWebPageDocs/index.html">Brandon Toppass</a>\
+		</h4>\
+	  </span>\
 </footer>\
 </body></html>';
 //---------------------------------------------------------------------------------------------------------------------------------------------------------//
@@ -354,8 +375,14 @@ Arrays, records (C++ structs), classes and data abstraction, object-oriented sof
 <li><a href="https://www.uhd.edu/admissions/Pages/admissions-request.aspx" target="_blank">Request Info</a></li>\
 </ul>\
 <span style= "float: left; text-shadow: 1px 1px 1px #b3b3b3">\
-<h6>Made by: Christopher Felicitas, Luis Moreno, Carlos Parlour, Brandon Toppass</h6>\
-</span>\
+		<h4>\
+		Made by:\
+		<a href = "Christopher Felicitas\' Personal Webpage/Personal Webpage.html">Christopher Felicitas</a>,\
+		<a href = "(folder name)/(personal webpage name).html">Luis Moreno</a>, \
+		<a href = "(folder name)/(personal webpage name).html">Carlos Parlour</a>, \
+		<a href = "BrandonWebPageDocs/index.html">Brandon Toppass</a>\
+		</h4>\
+	  </span>\
 </footer>\
 </body></html>';
 //---------------------------------------------------------------------------------------------------------------------------------------------------------//
@@ -418,8 +445,14 @@ Development of methods for organizing and processing data sets. Types of data st
 <li><a href="https://www.uhd.edu/admissions/Pages/admissions-request.aspx" target="_blank">Request Info</a></li>\
 </ul>\
 <span style= "float: left; text-shadow: 1px 1px 1px #b3b3b3">\
-<h6>Made by: Christopher Felicitas, Luis Moreno, Carlos Parlour, Brandon Toppass</h6>\
-</span>\
+		<h4>\
+		Made by:\
+		<a href = "Christopher Felicitas\' Personal Webpage/Personal Webpage.html">Christopher Felicitas</a>,\
+		<a href = "(folder name)/(personal webpage name).html">Luis Moreno</a>, \
+		<a href = "(folder name)/(personal webpage name).html">Carlos Parlour</a>, \
+		<a href = "BrandonWebPageDocs/index.html">Brandon Toppass</a>\
+		</h4>\
+	  </span>\
 </footer>\
 </body></html>';
 //---------------------------------------------------------------------------------------------------------------------------------------------------------//
@@ -482,8 +515,14 @@ An introduction to the modern theory of computing. Topics selected from abstract
 <li><a href="https://www.uhd.edu/admissions/Pages/admissions-request.aspx" target="_blank">Request Info</a></li>\
 </ul>\
 <span style= "float: left; text-shadow: 1px 1px 1px #b3b3b3">\
-<h6>Made by: Christopher Felicitas, Luis Moreno, Carlos Parlour, Brandon Toppass</h6>\
-</span>\
+		<h4>\
+		Made by:\
+		<a href = "Christopher Felicitas\' Personal Webpage/Personal Webpage.html">Christopher Felicitas</a>,\
+		<a href = "(folder name)/(personal webpage name).html">Luis Moreno</a>, \
+		<a href = "(folder name)/(personal webpage name).html">Carlos Parlour</a>, \
+		<a href = "BrandonWebPageDocs/index.html">Brandon Toppass</a>\
+		</h4>\
+	  </span>\
 </footer>\
 </body></html>';
 //---------------------------------------------------------------------------------------------------------------------------------------------------------//
@@ -545,8 +584,14 @@ To provide students with the theoretical and practical understanding of the deve
 <li><a href="https://www.uhd.edu/admissions/Pages/admissions-request.aspx" target="_blank">Request Info</a></li>\
 </ul>\
 <span style= "float: left; text-shadow: 1px 1px 1px #b3b3b3">\
-<h6>Made by: Christopher Felicitas, Luis Moreno, Carlos Parlour, Brandon Toppass</h6>\
-</span>\
+		<h4>\
+		Made by:\
+		<a href = "Christopher Felicitas\' Personal Webpage/Personal Webpage.html">Christopher Felicitas</a>,\
+		<a href = "(folder name)/(personal webpage name).html">Luis Moreno</a>, \
+		<a href = "(folder name)/(personal webpage name).html">Carlos Parlour</a>, \
+		<a href = "BrandonWebPageDocs/index.html">Brandon Toppass</a>\
+		</h4>\
+	  </span>\
 </footer>\
 </body></html>';
 //---------------------------------------------------------------------------------------------------------------------------------------------------------//
@@ -609,8 +654,14 @@ This course provides students with a foundation in the concepts and implementati
 <li><a href="https://www.uhd.edu/admissions/Pages/admissions-request.aspx" target="_blank">Request Info</a></li>\
 </ul>\
 <span style= "float: left; text-shadow: 1px 1px 1px #b3b3b3">\
-<h6>Made by: Christopher Felicitas, Luis Moreno, Carlos Parlour, Brandon Toppass</h6>\
-</span>\
+		<h4>\
+		Made by:\
+		<a href = "Christopher Felicitas\' Personal Webpage/Personal Webpage.html">Christopher Felicitas</a>,\
+		<a href = "(folder name)/(personal webpage name).html">Luis Moreno</a>, \
+		<a href = "(folder name)/(personal webpage name).html">Carlos Parlour</a>, \
+		<a href = "BrandonWebPageDocs/index.html">Brandon Toppass</a>\
+		</h4>\
+	  </span>\
 </footer>\
 </body></html>';
 //---------------------------------------------------------------------------------------------------------------------------------------------------------//
@@ -673,8 +724,14 @@ Basic concepts of operating systems including concurrent process management, I/O
 <li><a href="https://www.uhd.edu/admissions/Pages/admissions-request.aspx" target="_blank">Request Info</a></li>\
 </ul>\
 <span style= "float: left; text-shadow: 1px 1px 1px #b3b3b3">\
-<h6>Made by: Christopher Felicitas, Luis Moreno, Carlos Parlour, Brandon Toppass</h6>\
-</span>\
+		<h4>\
+		Made by:\
+		<a href = "Christopher Felicitas\' Personal Webpage/Personal Webpage.html">Christopher Felicitas</a>,\
+		<a href = "(folder name)/(personal webpage name).html">Luis Moreno</a>, \
+		<a href = "(folder name)/(personal webpage name).html">Carlos Parlour</a>, \
+		<a href = "BrandonWebPageDocs/index.html">Brandon Toppass</a>\
+		</h4>\
+	  </span>\
 </footer>\
 </body></html>';
 //---------------------------------------------------------------------------------------------------------------------------------------------------------//
@@ -736,8 +793,14 @@ An introduction to the theory of database and file structures with an emphasis o
 <li><a href="https://www.uhd.edu/admissions/Pages/admissions-request.aspx" target="_blank">Request Info</a></li>\
 </ul>\
 <span style= "float: left; text-shadow: 1px 1px 1px #b3b3b3">\
-<h6>Made by: Christopher Felicitas, Luis Moreno, Carlos Parlour, Brandon Toppass</h6>\
-</span>\
+		<h4>\
+		Made by:\
+		<a href = "Christopher Felicitas\' Personal Webpage/Personal Webpage.html">Christopher Felicitas</a>,\
+		<a href = "(folder name)/(personal webpage name).html">Luis Moreno</a>, \
+		<a href = "(folder name)/(personal webpage name).html">Carlos Parlour</a>, \
+		<a href = "BrandonWebPageDocs/index.html">Brandon Toppass</a>\
+		</h4>\
+	  </span>\
 </footer>\
 </body></html>';
 //----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------//
