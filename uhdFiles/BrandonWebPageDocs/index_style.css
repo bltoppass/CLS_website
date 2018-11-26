@@ -1,0 +1,53 @@
+/*style sheet for index*/
+	p {
+		text-indent: 2.0em;
+		color: white;
+	}
+	.myFace {
+		border:5px double gray;
+		padding:2px;
+		background:darkgray;
+		float:left;
+		margin: auto 3px;		
+	}
+	.indexWhite {/*make font white*/
+		font-family: Georgia, serif;
+		color:white;
+		}
+	.indexWhiteNTR{
+		color:white;
+	}
+	#bgImg{
+		background:
+		url(index_bg.jpg) no-repeat blue;
+		background-size: 100%;
+	}
+	#myLinks li a{
+		font-size: 18px;
+		font-family: serif;
+		color: white;
+		text-shadow: 2px 1px 1px #666666
+		text-align: center;
+		padding: 10px 15px;
+		text-decoration: none;
+	}
+	#myLinks li a:hover{
+		color:gray;
+		text-decoration: underline;
+	}
+	#botlink li a{
+		list-style-type:none;
+		font-size: 20px;
+		font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+		color: ghostwhite;
+	}
+	#botlink li a:hover{
+		color:deepskyblue;
+		text-decoration: underline;
+	}
+	#botlink li{
+		list-style-type:none;
+		font-size: 10px;
+		font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+		color: ghostwhite;
+	}
