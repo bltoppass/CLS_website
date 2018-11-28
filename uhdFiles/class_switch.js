@@ -28,7 +28,6 @@ var cs3300 = '<html lang = "en"><head><meta charset = "utf-8" name="viewport" co
 	  <form>\
 	  <select name="CS_Classes" onchange="replace(this.value)">\
 			<option value="" >Select A Class</option>\
-			<option value="cs1408" >1408 Intro to CS with Visual Basic</option>\
 			<option value="cs1410" >1410 Intro to CS with C++</option>\
 			<option value="cs2301" >2301 Intro to Computer Organization</option>\
 			<option value="cs2302" >2302 Digital Logic</option>\
@@ -82,6 +81,7 @@ var cs3300 = '<html lang = "en"><head><meta charset = "utf-8" name="viewport" co
 		<a href = "Christopher Felicitas\' Personal Webpage/Personal Webpage.html">Christopher Felicitas</a>,\
 		<a href = "(folder name)/(personal webpage name).html">Luis Moreno</a>, \
 		<a href = "(folder name)/(personal webpage name).html">Carlos Parlour</a>, \
+		<a href = "LuisMoreno_FirstWebPage/luisWEBPAGE.html">Luis Moreno</a>,\
 		<a href = "BrandonWebPageDocs/index.html">Brandon Toppass</a>\
 		</h4>\
 	  </span>\
@@ -804,26 +804,27 @@ An introduction to the theory of database and file structures with an emphasis o
 </footer>\
 </body></html>';
 //----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------//
+
 function replace(csClass){
 	if (csClass==""){
 		return;
 	}else if(csClass=="cs3300"){
-		document.open();//opens the html as a document
-		document.write(cs3300);//writes whatever the variable is as the document
-		document.close();//closes the document so changes won't be made
+		document.open();
+		document.write(cs3300);
+		document.close();
 	}else if(csClass=="cs1410"){
-        document.open();
-        document.write(cs1410);
-        document.close();
-    }else if(csClass=="cs2301"){
-        document.open();
-        document.write(cs2301);
-        document.close();
-    }else if(csClass=="cs2302"){
-        document.open();
-        document.write(cs2302);
-        document.close();
-    }else if(csClass=="cs2410"){
+		document.open();
+		document.write(cs1410);
+		document.close();
+	}else if(csClass=="cs2301"){
+		document.open();
+		document.write(cs2301);
+		document.close();
+	}else if(csClass=="cs2302"){
+		document.open();
+		document.write(cs2302);
+		document.close();
+	}else if(csClass=="cs2410"){
         document.open();
         document.write(cs2410);
         document.close();
@@ -858,8 +859,8 @@ function replace(csClass){
     }else if(csClass=="cs4318"){
         document.open();
         document.write(cs4318);
-        document.close();
-    }
+        document.close();	
+	}
 }
 
 //Open selected CS3300 chapter on the same page
