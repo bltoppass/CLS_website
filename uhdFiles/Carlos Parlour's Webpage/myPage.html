@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+
+<html>
+   <head>
+	
+      <body bgcolor="#FF8C00">
+      <meta charset = "utf-8">
+      <title>Welcome</title>
+	<style type = "text/css">
+         body  { background-image: url(UHD.png);
+		 background-position: top left;
+		 background-repeat: no-repeat;
+                
+                 background-color: LightGrey; }
+         p     { font-size: 18pt;
+                 color: DarkBlue;
+                 text-indent: 1em;
+                 font-family: arial, sans-serif; }
+         .dark { font-weight: bold; }
+
+	div {
+    	background-color: lightgrey;
+   	width: 300px;
+    	border: 25px solid black;
+    	padding: 25px;
+    	margin: 25px;
+	
+	}
+        
+      </style>
+
+      <title>Animation</title>
+      <style type = "text/css">
+         img
+         {
+            position: relative;
+            -webkit-animation: movingimage linear 10s 1s 2 alternate;
+            -moz-animation: movingimage linear 10s 1s 2 alternate;
+            animation: movingimage linear 10s 1s 2 alternate;
+         }
+         @-webkit-keyframes movingimage 
+         {
+            0%   {opacity: 0; left: 50px; top: 0px;}
+            25%  {opacity: 1; left: 0px; top: 50px;}
+            50%  {opacity: 0; left: 50px; top: 100px;}
+            75%  {opacity: 1; left: 100px; top: 50px;}
+            100% {opacity: 0; left: 50px; top: 0px;}
+         }
+         @-moz-keyframes movingimage 
+         {
+            0%   {opacity: 0; left: 50px; top: 0px;}
+            25%  {opacity: 1; left: 0px; top: 50px;}
+            50%  {opacity: 0; left: 50px; top: 100px;}
+            75%  {opacity: 1; left: 100px; top: 50px;}
+            100% {opacity: 0; left: 50px; top: 0px;}
+         }
+         @keyframes movingimage
+         {
+            0%   {opacity: 0; left: 50px; top: 0px;}
+            25%  {opacity: 1; left: 0px; top: 50px;}
+            50%  {opacity: 0; left: 50px; top: 100px;}
+            75%  {opacity: 1; left: 100px; top: 50px;}
+            100% {opacity: 0; left: 50px; top: 0px;}
+         }
+      </style>
+
+   </head>
+
+   <body>
+	<h1> <center> Welcome to My Page!! </h1>
+	<p>
+	
+	<img src="Nike.jpg" alt="nike" width="250" height="180" hspace="60"> 
+	<img src="Me.jpg" alt="Me" width="320" height="512" hspace="175"> 
+	<img src="Camille.jpg" alt="Camille" width="275" height="180"
+	</p>
+	
+	<p align = "left"> Hello!! My name is Carlos Parlour and I am a Senior at the University of Houston-Downtown. I am from Houston, Texas but I have lived in Austin, Galveston, and Texas City. I started my college career at The University of Texas at Austin. While at The University of Texas I studied Computer Science. I transferred to UHD last year. I am completing my final year and I anticipate graduating in the summer with a degree in Computer Science. Once I graduate I hope to get a job with a good company as a software engineer. I really enjoy programming in C++ and Java. I got married last year and I have two dogs. </p>
+	
+  </body>
+
+
+
+	<body>
+	<p> These are some of the elective CS classes I have taken. </p>
+	<!--  list -->
+	<ul>
+	<li><a> CS4300 - Web Programming </a></li>
+	<li><a> CS3318 - Intro to Cyber Security </a> </li> <br />
+	</ul>
+
+  
+	 
+	<!-- Create a Table -->
+	<!-- the <table> tag opens a table -->
+      	<table border = "1">
+
+         <!-- the <caption> tag summarizes the table's -->
+         <!-- contents (this helps visually impaired people) -->
+
+         <caption><strong> These are classes I plan on taking for the next two semester </strong></caption>
+
+         <!-- the <thead> section appears first in the table -->
+         <!-- it formats the table header area -->
+         
+	<thead>
+            <tr> <!-- <tr> inserts a table row -->
+               <th> Spring 2019 </th> <!-- insert a heading cell -->
+               <th> Summer 2019 </th>
+            </tr>
+         </thead>
+
+         <!-- the <tfoot> section appears last in the table -->
+         <!-- it formats the table footer -->
+         
+	<!-- <tfoot>-->
+            <!-- <tr> -->
+               <!-- <th>Footer</th> -->
+               <!-- <th>Footer</th> -->
+            <!-- </tr> -->
+         <!-- </tfoot> -->
+
+         <!-- all table content is enclosed -->
+         <!-- within the <tbody> -->
+         <tbody>
+            <tr>
+               <td>CS4294</td> <!-- insert a data cell -->
+               <td>CS4328</td>
+            </tr>
+            <tr>
+               <td>CS2302</td>
+               <td>CS3310</td>
+            </tr>
+            <tr>
+               <td>CS4390</td>
+               <td>NONE</td>
+            </tr>
+            <tr>
+               <td>CS5310</td>
+               <td>NONE</td>
+            </tr>
+         </tbody>
+
+
+      </table>
+   
+
+	<br />
+	<br />
+
+	<!-- Create an Form -->
+	<form method = "post" action = "http://www.uhd.edu">
+         <!-- hidden inputs contain non-visual -->
+         <!-- information that will also be submitted -->
+         
+
+	<input type = "hidden" name = "recipient"
+            value = "carlospar91@aol.com">
+        <input type = "hidden" name = "subject" 
+            value = "Feedback Form">
+        <input type = "hidden" name = "redirect" 
+            value = "main.html"> 
+
+         <!-- <input type = "text"> inserts a text field -->
+      	<p> Enter your name so I know who has stopped by. </p>
+	   <p> <label> Name:
+               <input name = "NAME" type = "text" size = "25"
+                  maxlength = "30">
+            </label></p>
+  
+         <p>
+            <!-- input types "submit" and "reset" insert -->
+            <!-- buttons for submitting and clearing the -->
+            <!-- form's contents, respectively -->
+            <input type = "submit" value = "Submit">
+            <input type = "reset" value = "Clear">
+         </p>   
+      </form>
+
+	<a href = "../UHDhelp.html">Back to UHD Computer Science External Help Page</a>	 
+	  
+</html>
